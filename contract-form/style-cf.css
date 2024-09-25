@@ -1,0 +1,186 @@
+ body, h1, h2, h3, h4, h5, h6, p, a, ul, li, ol {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background-image:url(../images/cf-b3.jpg);	
+}
+input
+{
+	outline: none;
+}
+.contract-form{
+	width:500px;
+    height:500px;
+    background-image:url(../images/cf-b.jpg);
+    position:absolute;
+    top:85px;
+    left:450px;
+    border-radius:20px;
+}
+.contract-form h4{
+	text-align:center;
+	margin-top:45px;
+	font-size:23px;
+	color:#58B19F;
+	border-bottom:1px solid #58B19F;
+}
+.contract-form p{
+	color:#dff9fb;
+}
+.name .text{
+	width:10%;
+	float:left;
+	margin-top:50px;
+	margin-left:17px;
+}
+.name .f-name{
+	width:40%;
+	float:left;
+	margin-top:50px;
+	margin-left:25px;	
+}
+.name .l-name{
+	width:40%;
+	float:left;
+	margin-top:50px;		
+}
+.name:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.name input{
+	border-bottom:1px solid #d1d8e0;
+	border-top:none;
+	border-left:none;
+	border-right:none;		
+	background-color:transparent;
+	color:#dff9fb;
+}
+.contract .text1{
+	width:10%;
+	float:left;
+	margin-top:50px;
+	margin-left:17px;
+}
+.contract .mail{
+	width:40%;
+	float:left;
+	margin-top:50px;
+	margin-left:5px;
+}
+.contract .phone{
+	width:30%;
+	float:left;
+	margin-top:50px;
+	margin-left:5px;
+}
+.contract .text2{
+	width:10%;
+	float:left;
+	margin-top:50px;
+	margin-left:13px;
+}
+.contract:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.contract input{
+	border-bottom:1px solid #d1d8e0;
+	border-top:none;
+	border-left:none;
+	border-right:none;		
+	background-color:transparent;
+	color:#dff9fb;
+}
+.contract .mail input{
+	width:190px;
+}
+.contract .phone input{
+	width:120px;
+}
+.q-q .text3{
+	width:10%;
+	float:left;
+	margin-top:50px;
+	margin-left:17px;
+}
+.q-q .quality{
+	width:40%;
+	float:left;
+	margin-top:50px;
+	margin-left:5px;
+}
+.q-q .quantity{
+	width:30%;
+	float:left;
+	margin-top:50px;
+	margin-left:10px;
+}
+.q-q .text4{
+	width:10%;
+	float:left;
+	margin-top:50px;
+	margin-left:13px;
+}
+.q-q:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.q-q input{
+	border-bottom:1px solid #d1d8e0;
+	border-top:none;
+	border-left:none;
+	border-right:none;		
+	background-color:transparent;
+	color:#dff9fb;
+}
+.q-q .quality select{
+	width:190px;
+	background-color:transparent;
+	border-bottom:1px solid #d1d8e0;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+    color:#8a8890;
+}
+.q-q .quality select option{
+	background-color:#034a76;
+}
+.q-q .quantity input{
+	width:120px;
+}
+.message{
+	width:90%;	
+	margin:auto;
+	margin-top:40px;
+}
+.message textarea{
+	width:100%;
+	height:80px;
+	background-color:#034a76;
+	border:2px solid #d1d8e0;
+    color:#dff9fb;	
+}
+.send{
+	margin-top:15px;
+}
+.send .button{
+	margin-left:75%;
+}
+.send .button button{
+	height:35px;
+	width:75px;
+	background-color:#04456d;
+	border:1px solid #9AECDB;
+	color:#dff9fb;
+}
+
+
+
+
+
+
